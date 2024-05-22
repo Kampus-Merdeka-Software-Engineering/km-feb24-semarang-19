@@ -153,3 +153,59 @@ nav ul li:hover a {
     margin: 10px 0;
     font-size: 1.2em;
 }
+
+/* ini about us */
+.about-us {
+  text-align: center;
+  padding: 20px;
+}
+
+.out-team {
+  font-size: 2.5rem;
+}
+
+.team {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.team-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-items: center;
+  padding: 20px;
+}
+
+.team-card {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 250px;
+  text-align: center;
+  padding: 10px;
+}
+
+.team-card img {
+  width: 100%;
+  height: auto;
+  /* max-height: 200px; */
+  border-radius: 2%;
+}
+
+.team-card h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.team-card p {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.team-card .description {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #666;
+}
