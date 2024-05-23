@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Maven Roastery</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        body {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            background-color: #efd7bf; 
+            color: #2e180ae9;
+            overflow-x: hidden; 
+        }
+
+        h1 {
+            color: #2e180ae9;
+            text-align: left;
+            font-size: 3.5em;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        p, ul {
+            text-align: justify; 
+            line-height: 1.6;
+            font-size: 1.2em;
+            animation: fadeIn 2s ease-in-out;
+            animation-delay: 0.5s;
+            animation-fill-mode: both; 
+        }
+
+        ul {
+            list-style-type: square;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .section-heading {
+            font-size: 1.8em; 
+            text-align: center;
+        }
+
+        .section-heading-bawah {
+            font-size: 1.8em; 
+            text-align: left;
+        }
+
+        p {
+            margin-bottom: 30px; 
+        }
+
+        .about-section, .commitment-section {
+            display: flex;
+            align-items: flex-start;
+            padding: 20px;
+        }
+
+        .about-text, .commitment-text {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .about-image, .commitment-image {
+            flex: 1;
+            max-width: 450px; 
+            display: flex;
+            justify-content: center;
+        }
+
+        .about-image img, .commitment-image img {
+            width: 90%;
+            height: auto;
+            animation: fadeIn 2s ease-in-out;
+            animation-delay: 0.5s;
+            animation-fill-mode: both;
+        }
+
+        .location-section {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; 
+            padding: 20px;
+        }
+
+        .location-text {
+            text-align: left; 
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <a href="index.html">
+              <img src="assets/revou.png" />
+          </a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="kontak.html">Profile</a></li>
+          </ul>
+        </nav>
+      </header>
+    <img src="assets/Kopi.png" class="header" title="Header Maven Roastery">
+    <div class="about-section">
+        <div class="about-text">
+            <h1>About Us - Maven Roastery</h1>
+            <p>Your one-stop destination.</p>
+            <p>Welcome to Maven Roastery! We are your one-stop destination for all your coffee, tea, merchandise, chocolate, pastry, bakery, and many other high-quality products. We are ready to fulfill your taste buds. With our commitment to providing high-quality products and exceptional customer service, we are proud to be part of your choice. Thank you for choosing Maven Roastery as your trusted shopping partner.</p>
+        </div>
+        <div class="about-image">
+            <img src="assets/Pastry.png" alt="About Us Image">
+        </div>
+    </div>
+    <div class="commitment-section">
+        <div class="commitment-image">
+            <img src="assets/Loose Tea.png" alt="Our Commitment Image">
+        </div>
+        <div class="commitment-text">
+            <h2 class="section-heading">Our Commitment</h2>
+            <p>Maven Roastery is committed to:</p>
+            <ul>
+                <li>Providing quality products: We use the best quality ingredients to ensure you get the best products. Each product is carefully selected and processed to deliver exceptional flavor and satisfaction.</li>
+                <li>Offering Competitive Prices: We believe that premium quality should be accessible to everyone. Our pricing strategy is designed to offer excellent value for money, ensuring that our customers can enjoy top-tier products at affordable prices.</li>
+                <li>Delivering Exceptional Customer Service: Our team is committed to providing a friendly and supportive shopping experience. We strive to meet and exceed your expectations in every interaction.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="location-section">
+        <div class="location-text">
+            <h2 class="section-heading-bawah">Locations</h2>
+            <p>Find us at the following locations:</p>
+            <ul>
+                <li>Astoria</li>
+                <li>Lower Manhattan</li>
+                <li>Hell's Kitchen</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

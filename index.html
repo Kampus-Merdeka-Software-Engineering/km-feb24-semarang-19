@@ -16,9 +16,10 @@
       </div>
       <nav>
         <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="#tentangsaya">Dashboard</a></li>
-          <li><a href="./kontak.html">About us</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#Dashboard">Dashboard</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="kontak.html">Profile</a></li>
         </ul>
       </nav>
     </header>
@@ -106,6 +107,51 @@
             </div>
         </div>
     </section>
+
+    <body>
+        <h1 class="centered" id="Dashboard">Dashboard</h1>       
+    </body>
+
+<!--Chart Star-->
+<body>
+    <div class="chart-wrapper">
+
+        <h2>Data Jumlah Transaksi</h2>
+        <div class="chart-container">
+            <canvas id="lineChart"></canvas>
+        </div>
+
+        <h2>Produk Best Seller</h2>
+        <div class="chart-container">
+            <canvas id="barChartHorizontal"></canvas>
+        </div>
+
+        <h2>Transaksi Per Harga</h2>
+        <div class="chart-container">
+            <canvas id="barChartVertical"></canvas>
+        </div>
+                
+        <h2>Total Revenue</h2>
+        <div class="chart-container">
+            <canvas id="myPieChart"></canvas>
+        </div>
+        
+        <h2>Transaksi Per Bulan</h2>
+        <div class="chart-container">
+            <canvas id="barChartVertical2"></canvas>
+        </div>
+
+        <h2>Transaksi Per Hari</h2>
+        <div class="chart-container">
+            <canvas id="barChartVertical3"></canvas>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
     <!--Category end-->
     </main>
     <!--Main end-->
