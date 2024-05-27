@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Team 19 Semarang</title>
+    <link rel="stylesheet" href="dashboard styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <!--Header start-->
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <img src="assets/revou.png" />
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./dashboard.html">Dashboard</a></li>
+          <li><a href="./kontak.html">About us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--Header end-->
+    <main>
+      <div>
+        <h1>DASHBOARD TEAM 19 SEMARANG</h1>
+        <div>
+          <label for="store_location_select">Store Location</label>
+          <select id="store_location_select">
+            <option value="all">All</option>
+            <option value="Hell's Kitchen">Hell's Kitchen</option>
+            <option value="Astoria">Astoria</option>
+            <option value="Lower Manhattan">Lower Manhattan</option>
+          </select>
+        </div>
+      </div>
+      <div>
+        <div>
+          <h1>Tren Jumlah Transaksi</h1>
+          <canvas id="transactionTrendChart"></canvas>
+        </div>
+        <div>
+          <h1>Produk Best Seller</h1>
+          <canvas id="productBestSellerChart"></canvas>
+        </div>
+        <div>
+          <h1>Transaksi Per Harga</h1>
+          <canvas id="transactionPerPriceChart"></canvas>
+        </div>
+        <div>
+          <h1>Total Revenue</h1>
+          <canvas id="totalRevenueChart"></canvas>
+        </div>
+        <div>
+          <h1>Transaksi Per Bulan</h1>
+          <canvas id="transactionPerMonthChart"></canvas>
+        </div>
+        <div>
+          <h1>Transaksi Per Hari</h1>
+          <canvas id="transactionPerDayChart"></canvas>
+        </div>
+      </div>
+    </main>
+    <script src="dashboard scripts.js"></script>
+  </body>
+</html>
