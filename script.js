@@ -56,51 +56,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
-    const lineCtx = document.getElementById('lineChart').getContext('2d');
-    const lineChart = new Chart(lineCtx, {
-        type: 'line',
-        data: {
-            labels: ['January', 'February', 'March', 'April', 'May', 'June'],
-            datasets: [
-                {
-                    label: 'Astoria',
-                    data: [65, 59, 80, 81, 56, 55],
-                    backgroundColor: 'rgba(255, 0, 0, 0.2)', // Merah
-                    borderColor: 'rgba(255, 0, 0, 1)', // Merah
-                    borderWidth: 1,
-                    fill: false
-                },
-                {
-                    label: 'Hell"s Kitchen',
-                    data: [28, 48, 40, 19, 86, 27],
-                    backgroundColor: 'rgba(0, 0, 255, 0.2)', // Biru
-                    borderColor: 'rgba(0, 0, 255, 1)', // Biru
-                    borderWidth: 1,
-                    fill: false
-                },
-                {
-                    label: 'Lower Manhattan',
-                    data: [18, 48, 77, 9, 100, 27],
-                    backgroundColor: 'rgba(0, 128, 0, 0.2)', // Hijau Tua
-                    borderColor: 'rgba(0, 128, 0, 1)', // Hijau Tua
-                    borderWidth: 1,
-                    fill: false
-                }
-            ]
-        },
-        options: {
-            responsive: true,
-            scales: {
-                x: {
-                    beginAtZero: true
-                },
-                y: {
-                    beginAtZero: true
-                }
-            }
-        }
-    });
-
     // Horizontal Bar Chart for Produk Best Seller
     const ctxBarHorizontal = document.getElementById('barChartHorizontal').getContext('2d');
     const barChartHorizontal = new Chart(ctxBarHorizontal, {
@@ -137,51 +92,6 @@ document.addEventListener('DOMContentLoaded', function () {
             indexAxis: 'y',
             scales: {
                 x: {
-                    beginAtZero: true
-                }
-            }
-        }
-    });
-
-    const ctxBarVertical = document.getElementById('barChartVertical').getContext('2d');
-    const barChartVertical = new Chart(ctxBarVertical, {
-        type: 'bar',
-        data: {
-            labels: ['Astoria', 'Hell"s Kitchen', 'Lower Manhattan'],
-            datasets: [
-                {
-                    label: '1-8 Dollar',
-                    data: [15, 25, 14, 25, 17],
-                    backgroundColor: 'rgba(255, 0, 0, 0.2)', // Merah
-                    borderColor: 'rgba(255, 0, 0, 1)', // Merah
-                    borderWidth: 1
-                },
-                {
-                    label: '9-16 Dollar',
-                    data: [2, 4, 6, 16, 20],
-                    backgroundColor: 'rgba(0, 0, 255, 0.2)', // Biru
-                    borderColor: 'rgba(0, 0, 255, 1)', // Biru
-                    borderWidth: 1
-                },
-                {
-                    label: '17-24 Dollar',
-                    data: [2, 4, 6, 7, 5],
-                    backgroundColor: 'rgba(0, 128, 0, 0.2)', // Hijau Tua
-                    borderColor: 'rgba(0, 128, 0, 1)', // Hijau Tua
-                    borderWidth: 1
-                },
-                {   label: 'Over 24 Dollar',
-                    data: [5, 8, 6, 2, 1],
-                    backgroundColor: 'rgba(150, 105, 25, 0.2)',
-                    borderColor: 'rgba(150, 105, 25, 1)',
-                    borderWidth: 1
-                }
-            ]
-        },
-        options: {
-            responsive: true,
-            scales: {
-                y: {
                     beginAtZero: true
                 }
             }
