@@ -1,0 +1,1556 @@
+﻿[
+    {
+        "product_detail": "Brazilian - Organic",
+        "unit_price": "18.0",
+        "store_location": "Astoria",
+        "Total_Quantity": "47"
+    },
+    {
+        "product_detail": "Our Old Time Diner Blend",
+        "unit_price": "18.0",
+        "store_location": "Astoria",
+        "Total_Quantity": "46"
+    },
+    {
+        "product_detail": "Espresso Roast",
+        "unit_price": "14.75",
+        "store_location": "Astoria",
+        "Total_Quantity": "51"
+    },
+    {
+        "product_detail": "Primo Espresso Roast",
+        "unit_price": "20.45",
+        "store_location": "Astoria",
+        "Total_Quantity": "46"
+    },
+    {
+        "product_detail": "Columbian Medium Roast",
+        "unit_price": "15.0",
+        "store_location": "Astoria",
+        "Total_Quantity": "57"
+    },
+    {
+        "product_detail": "Ethiopia",
+        "unit_price": "21.0",
+        "store_location": "Astoria",
+        "Total_Quantity": "75"
+    },
+    {
+        "product_detail": "Jamacian Coffee River",
+        "unit_price": "19.75",
+        "store_location": "Astoria",
+        "Total_Quantity": "51"
+    },
+    {
+        "product_detail": "Civet Cat",
+        "unit_price": "45.0",
+        "store_location": "Astoria",
+        "Total_Quantity": "45"
+    },
+    {
+        "product_detail": "Organic Decaf Blend",
+        "unit_price": "22.5",
+        "store_location": "Astoria",
+        "Total_Quantity": "44"
+    },
+    {
+        "product_detail": "Guatemalan Sustainably Grown",
+        "unit_price": "10.0",
+        "store_location": "Astoria",
+        "Total_Quantity": "40"
+    },
+    {
+        "product_detail": "Lemon Grass",
+        "unit_price": "8.95",
+        "store_location": "Astoria",
+        "Total_Quantity": "42"
+    },
+    {
+        "product_detail": "Peppermint",
+        "unit_price": "8.95",
+        "store_location": "Astoria",
+        "Total_Quantity": "55"
+    },
+    {
+        "product_detail": "English Breakfast",
+        "unit_price": "8.95",
+        "store_location": "Astoria",
+        "Total_Quantity": "55"
+    },
+    {
+        "product_detail": "Earl Grey",
+        "unit_price": "8.95",
+        "store_location": "Astoria",
+        "Total_Quantity": "30"
+    },
+    {
+        "product_detail": "Serenity Green Tea",
+        "unit_price": "9.25",
+        "store_location": "Astoria",
+        "Total_Quantity": "42"
+    },
+    {
+        "product_detail": "Traditional Blend Chai",
+        "unit_price": "8.95",
+        "store_location": "Astoria",
+        "Total_Quantity": "31"
+    },
+    {
+        "product_detail": "Morning Sunrise Chai",
+        "unit_price": "9.5",
+        "store_location": "Astoria",
+        "Total_Quantity": "52"
+    },
+    {
+        "product_detail": "Spicy Eye Opener Chai",
+        "unit_price": "10.95",
+        "store_location": "Astoria",
+        "Total_Quantity": "37"
+    },
+    {
+        "product_detail": "Dark chocolate",
+        "unit_price": "6.4",
+        "store_location": "Astoria",
+        "Total_Quantity": "13"
+    },
+    {
+        "product_detail": "Sustainably Grown Organic",
+        "unit_price": "7.6",
+        "store_location": "Astoria",
+        "Total_Quantity": "50"
+    },
+    {
+        "product_detail": "Chili Mayan",
+        "unit_price": "13.33",
+        "store_location": "Astoria",
+        "Total_Quantity": "47"
+    },
+    {
+        "product_detail": "Our Old Time Diner Blend Sm",
+        "unit_price": "2.0",
+        "store_location": "Astoria",
+        "Total_Quantity": "1575"
+    },
+    {
+        "product_detail": "Our Old Time Diner Blend Rg",
+        "unit_price": "2.5",
+        "store_location": "Astoria",
+        "Total_Quantity": "1479"
+    },
+    {
+        "product_detail": "Our Old Time Diner Blend Lg",
+        "unit_price": "3.0",
+        "store_location": "Astoria",
+        "Total_Quantity": "1523"
+    },
+    {
+        "product_detail": "Brazilian Sm",
+        "unit_price": "2.2",
+        "store_location": "Astoria",
+        "Total_Quantity": "1396"
+    },
+    {
+        "product_detail": "Brazilian Rg",
+        "unit_price": "3.0",
+        "store_location": "Astoria",
+        "Total_Quantity": "1532"
+    },
+    {
+        "product_detail": "Brazilian Lg",
+        "unit_price": "3.5",
+        "store_location": "Astoria",
+        "Total_Quantity": "1416"
+    },
+    {
+        "product_detail": "Columbian Medium Roast Sm",
+        "unit_price": "2.0",
+        "store_location": "Astoria",
+        "Total_Quantity": "1543"
+    },
+    {
+        "product_detail": "Columbian Medium Roast Rg",
+        "unit_price": "2.5",
+        "store_location": "Astoria",
+        "Total_Quantity": "1613"
+    },
+    {
+        "product_detail": "Columbian Medium Roast Lg",
+        "unit_price": "3.0",
+        "store_location": "Astoria",
+        "Total_Quantity": "1437"
+    },
+    {
+        "product_detail": "Ethiopia Sm",
+        "unit_price": "2.2",
+        "store_location": "Astoria",
+        "Total_Quantity": "1619"
+    },
+    {
+        "product_detail": "Ethiopia Rg",
+        "unit_price": "3.0",
+        "store_location": "Astoria",
+        "Total_Quantity": "1418"
+    },
+    {
+        "product_detail": "Ethiopia Lg",
+        "unit_price": "3.5",
+        "store_location": "Astoria",
+        "Total_Quantity": "1308"
+    },
+    {
+        "product_detail": "Jamaican Coffee River Sm",
+        "unit_price": "2.45",
+        "store_location": "Astoria",
+        "Total_Quantity": "1323"
+    },
+    {
+        "product_detail": "Jamaican Coffee River Rg",
+        "unit_price": "3.1",
+        "store_location": "Astoria",
+        "Total_Quantity": "1577"
+    },
+    {
+        "product_detail": "Jamaican Coffee River Lg",
+        "unit_price": "3.75",
+        "store_location": "Astoria",
+        "Total_Quantity": "1551"
+    },
+    {
+        "product_detail": "Espresso shot",
+        "unit_price": "3.0",
+        "store_location": "Astoria",
+        "Total_Quantity": "1437"
+    },
+    {
+        "product_detail": "Latte",
+        "unit_price": "3.75",
+        "store_location": "Astoria",
+        "Total_Quantity": "1561"
+    },
+    {
+        "product_detail": "Latte Rg",
+        "unit_price": "4.25",
+        "store_location": "Astoria",
+        "Total_Quantity": "1496"
+    },
+    {
+        "product_detail": "Cappuccino",
+        "unit_price": "3.75",
+        "store_location": "Astoria",
+        "Total_Quantity": "1409"
+    },
+    {
+        "product_detail": "Cappuccino Lg",
+        "unit_price": "4.25",
+        "store_location": "Astoria",
+        "Total_Quantity": "1442"
+    },
+    {
+        "product_detail": "Lemon Grass Rg",
+        "unit_price": "2.5",
+        "store_location": "Astoria",
+        "Total_Quantity": "1481"
+    },
+    {
+        "product_detail": "Lemon Grass Lg",
+        "unit_price": "3.0",
+        "store_location": "Astoria",
+        "Total_Quantity": "1377"
+    },
+    {
+        "product_detail": "Peppermint Rg",
+        "unit_price": "2.5",
+        "store_location": "Astoria",
+        "Total_Quantity": "1673"
+    },
+    {
+        "product_detail": "Peppermint Lg",
+        "unit_price": "3.0",
+        "store_location": "Astoria",
+        "Total_Quantity": "1422"
+    },
+    {
+        "product_detail": "Serenity Green Tea Rg",
+        "unit_price": "2.5",
+        "store_location": "Astoria",
+        "Total_Quantity": "1410"
+    },
+    {
+        "product_detail": "Serenity Green Tea Lg",
+        "unit_price": "3.0",
+        "store_location": "Astoria",
+        "Total_Quantity": "1488"
+    },
+    {
+        "product_detail": "English Breakfast Rg",
+        "unit_price": "2.5",
+        "store_location": "Astoria",
+        "Total_Quantity": "1339"
+    },
+    {
+        "product_detail": "English Breakfast Lg",
+        "unit_price": "3.0",
+        "store_location": "Astoria",
+        "Total_Quantity": "1388"
+    },
+    {
+        "product_detail": "Earl Grey Rg",
+        "unit_price": "2.5",
+        "store_location": "Astoria",
+        "Total_Quantity": "1725"
+    },
+    {
+        "product_detail": "Earl Grey Lg",
+        "unit_price": "3.0",
+        "store_location": "Astoria",
+        "Total_Quantity": "1439"
+    },
+    {
+        "product_detail": "Traditional Blend Chai Rg",
+        "unit_price": "2.5",
+        "store_location": "Astoria",
+        "Total_Quantity": "1548"
+    },
+    {
+        "product_detail": "Traditional Blend Chai Lg",
+        "unit_price": "3.0",
+        "store_location": "Astoria",
+        "Total_Quantity": "1482"
+    },
+    {
+        "product_detail": "Morning Sunrise Chai Rg",
+        "unit_price": "2.5",
+        "store_location": "Astoria",
+        "Total_Quantity": "1545"
+    },
+    {
+        "product_detail": "Morning Sunrise Chai Lg",
+        "unit_price": "4.0",
+        "store_location": "Astoria",
+        "Total_Quantity": "1577"
+    },
+    {
+        "product_detail": "Spicy Eye Opener Chai Rg",
+        "unit_price": "2.55",
+        "store_location": "Astoria",
+        "Total_Quantity": "1520"
+    },
+    {
+        "product_detail": "Spicy Eye Opener Chai Lg",
+        "unit_price": "3.1",
+        "store_location": "Astoria",
+        "Total_Quantity": "1634"
+    },
+    {
+        "product_detail": "Dark chocolate Rg",
+        "unit_price": "3.5",
+        "store_location": "Astoria",
+        "Total_Quantity": "1513"
+    },
+    {
+        "product_detail": "Dark chocolate Lg",
+        "unit_price": "4.5",
+        "store_location": "Astoria",
+        "Total_Quantity": "1755"
+    },
+    {
+        "product_detail": "Sustainably Grown Organic Rg",
+        "unit_price": "3.75",
+        "store_location": "Astoria",
+        "Total_Quantity": "1502"
+    },
+    {
+        "product_detail": "Sustainably Grown Organic Lg",
+        "unit_price": "4.75",
+        "store_location": "Astoria",
+        "Total_Quantity": "1581"
+    },
+    {
+        "product_detail": "Carmel syrup",
+        "unit_price": "0.8",
+        "store_location": "Astoria",
+        "Total_Quantity": "535"
+    },
+    {
+        "product_detail": "Hazelnut syrup",
+        "unit_price": "0.8",
+        "store_location": "Astoria",
+        "Total_Quantity": "434"
+    },
+    {
+        "product_detail": "Sugar Free Vanilla syrup",
+        "unit_price": "0.8",
+        "store_location": "Astoria",
+        "Total_Quantity": "567"
+    },
+    {
+        "product_detail": "Hazelnut Biscotti",
+        "unit_price": "3.25",
+        "store_location": "Astoria",
+        "Total_Quantity": "664"
+    },
+    {
+        "product_detail": "Cranberry Scone",
+        "unit_price": "3.25",
+        "store_location": "Astoria",
+        "Total_Quantity": "685"
+    },
+    {
+        "product_detail": "Chocolate Croissant",
+        "unit_price": "3.75",
+        "store_location": "Astoria",
+        "Total_Quantity": "1023"
+    },
+    {
+        "product_detail": "Ginger Scone",
+        "unit_price": "3.25",
+        "store_location": "Astoria",
+        "Total_Quantity": "648"
+    },
+    {
+        "product_detail": "Almond Croissant",
+        "unit_price": "3.75",
+        "store_location": "Astoria",
+        "Total_Quantity": "623"
+    },
+    {
+        "product_detail": "Ginger Biscotti",
+        "unit_price": "3.5",
+        "store_location": "Astoria",
+        "Total_Quantity": "639"
+    },
+    {
+        "product_detail": "Croissant",
+        "unit_price": "3.5",
+        "store_location": "Astoria",
+        "Total_Quantity": "606"
+    },
+    {
+        "product_detail": "Chocolate Chip Biscotti",
+        "unit_price": "3.5",
+        "store_location": "Astoria",
+        "Total_Quantity": "652"
+    },
+    {
+        "product_detail": "Oatmeal Scone",
+        "unit_price": "3.0",
+        "store_location": "Astoria",
+        "Total_Quantity": "653"
+    },
+    {
+        "product_detail": "Scottish Cream Scone",
+        "unit_price": "4.5",
+        "store_location": "Astoria",
+        "Total_Quantity": "603"
+    },
+    {
+        "product_detail": "Jumbo Savory Scone",
+        "unit_price": "3.75",
+        "store_location": "Astoria",
+        "Total_Quantity": "700"
+    },
+    {
+        "product_detail": "I Need My Bean! T-shirt",
+        "unit_price": "28.0",
+        "store_location": "Astoria",
+        "Total_Quantity": "106"
+    },
+    {
+        "product_detail": "I Need My Bean! T-shirt",
+        "unit_price": "23.0",
+        "store_location": "Astoria",
+        "Total_Quantity": "5"
+    },
+    {
+        "product_detail": "I Need My Bean! Diner mug",
+        "unit_price": "12.0",
+        "store_location": "Astoria",
+        "Total_Quantity": "61"
+    },
+    {
+        "product_detail": "I Need My Bean! Diner mug",
+        "unit_price": "23.0",
+        "store_location": "Astoria",
+        "Total_Quantity": "5"
+    },
+    {
+        "product_detail": "I Need My Bean! Latte cup",
+        "unit_price": "14.0",
+        "store_location": "Astoria",
+        "Total_Quantity": "91"
+    },
+    {
+        "product_detail": "I Need My Bean! Latte cup",
+        "unit_price": "23.0",
+        "store_location": "Astoria",
+        "Total_Quantity": "11"
+    },
+    {
+        "product_detail": "Chocolate syrup",
+        "unit_price": "0.8",
+        "store_location": "Astoria",
+        "Total_Quantity": "670"
+    },
+    {
+        "product_detail": "Brazilian - Organic",
+        "unit_price": "18.0",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "75"
+    },
+    {
+        "product_detail": "Our Old Time Diner Blend",
+        "unit_price": "18.0",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "89"
+    },
+    {
+        "product_detail": "Espresso Roast",
+        "unit_price": "14.75",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "72"
+    },
+    {
+        "product_detail": "Primo Espresso Roast",
+        "unit_price": "20.45",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "73"
+    },
+    {
+        "product_detail": "Columbian Medium Roast",
+        "unit_price": "15.0",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "54"
+    },
+    {
+        "product_detail": "Ethiopia",
+        "unit_price": "21.0",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "64"
+    },
+    {
+        "product_detail": "Jamacian Coffee River",
+        "unit_price": "19.75",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "53"
+    },
+    {
+        "product_detail": "Civet Cat",
+        "unit_price": "45.0",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "164"
+    },
+    {
+        "product_detail": "Organic Decaf Blend",
+        "unit_price": "22.5",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "87"
+    },
+    {
+        "product_detail": "Guatemalan Sustainably Grown",
+        "unit_price": "10.0",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "59"
+    },
+    {
+        "product_detail": "Lemon Grass",
+        "unit_price": "8.95",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "80"
+    },
+    {
+        "product_detail": "Peppermint",
+        "unit_price": "8.95",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "61"
+    },
+    {
+        "product_detail": "English Breakfast",
+        "unit_price": "8.95",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "48"
+    },
+    {
+        "product_detail": "Earl Grey",
+        "unit_price": "8.95",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "71"
+    },
+    {
+        "product_detail": "Serenity Green Tea",
+        "unit_price": "9.25",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "44"
+    },
+    {
+        "product_detail": "Traditional Blend Chai",
+        "unit_price": "8.95",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "78"
+    },
+    {
+        "product_detail": "Morning Sunrise Chai",
+        "unit_price": "9.5",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "68"
+    },
+    {
+        "product_detail": "Spicy Eye Opener Chai",
+        "unit_price": "10.95",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "35"
+    },
+    {
+        "product_detail": "Dark chocolate",
+        "unit_price": "6.4",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "66"
+    },
+    {
+        "product_detail": "Sustainably Grown Organic",
+        "unit_price": "7.6",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "82"
+    },
+    {
+        "product_detail": "Chili Mayan",
+        "unit_price": "13.33",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "49"
+    },
+    {
+        "product_detail": "Our Old Time Diner Blend Sm",
+        "unit_price": "2.0",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1550"
+    },
+    {
+        "product_detail": "Our Old Time Diner Blend Rg",
+        "unit_price": "2.5",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1451"
+    },
+    {
+        "product_detail": "Our Old Time Diner Blend Lg",
+        "unit_price": "3.0",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1341"
+    },
+    {
+        "product_detail": "Brazilian Sm",
+        "unit_price": "2.2",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1520"
+    },
+    {
+        "product_detail": "Brazilian Rg",
+        "unit_price": "3.0",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1446"
+    },
+    {
+        "product_detail": "Brazilian Lg",
+        "unit_price": "3.5",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1552"
+    },
+    {
+        "product_detail": "Columbian Medium Roast Sm",
+        "unit_price": "2.0",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1418"
+    },
+    {
+        "product_detail": "Columbian Medium Roast Rg",
+        "unit_price": "2.5",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1411"
+    },
+    {
+        "product_detail": "Columbian Medium Roast Lg",
+        "unit_price": "3.0",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1308"
+    },
+    {
+        "product_detail": "Ethiopia Sm",
+        "unit_price": "2.2",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1323"
+    },
+    {
+        "product_detail": "Ethiopia Rg",
+        "unit_price": "3.0",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1460"
+    },
+    {
+        "product_detail": "Ethiopia Lg",
+        "unit_price": "3.5",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1552"
+    },
+    {
+        "product_detail": "Jamaican Coffee River Sm",
+        "unit_price": "2.45",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1235"
+    },
+    {
+        "product_detail": "Jamaican Coffee River Rg",
+        "unit_price": "3.1",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1241"
+    },
+    {
+        "product_detail": "Jamaican Coffee River Lg",
+        "unit_price": "3.75",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1348"
+    },
+    {
+        "product_detail": "Espresso shot",
+        "unit_price": "3.0",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1428"
+    },
+    {
+        "product_detail": "Latte",
+        "unit_price": "3.75",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1500"
+    },
+    {
+        "product_detail": "Latte Rg",
+        "unit_price": "4.25",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1498"
+    },
+    {
+        "product_detail": "Cappuccino",
+        "unit_price": "3.75",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1487"
+    },
+    {
+        "product_detail": "Cappuccino Lg",
+        "unit_price": "4.25",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1297"
+    },
+    {
+        "product_detail": "Lemon Grass Rg",
+        "unit_price": "2.5",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1408"
+    },
+    {
+        "product_detail": "Lemon Grass Lg",
+        "unit_price": "3.0",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1405"
+    },
+    {
+        "product_detail": "Peppermint Rg",
+        "unit_price": "2.5",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1396"
+    },
+    {
+        "product_detail": "Peppermint Lg",
+        "unit_price": "3.0",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1346"
+    },
+    {
+        "product_detail": "Serenity Green Tea Rg",
+        "unit_price": "2.5",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1601"
+    },
+    {
+        "product_detail": "Serenity Green Tea Lg",
+        "unit_price": "3.0",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1405"
+    },
+    {
+        "product_detail": "English Breakfast Rg",
+        "unit_price": "2.5",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1311"
+    },
+    {
+        "product_detail": "English Breakfast Lg",
+        "unit_price": "3.0",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1529"
+    },
+    {
+        "product_detail": "Earl Grey Rg",
+        "unit_price": "2.5",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1522"
+    },
+    {
+        "product_detail": "Earl Grey Lg",
+        "unit_price": "3.0",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1302"
+    },
+    {
+        "product_detail": "Traditional Blend Chai Rg",
+        "unit_price": "2.5",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1519"
+    },
+    {
+        "product_detail": "Traditional Blend Chai Lg",
+        "unit_price": "3.0",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1453"
+    },
+    {
+        "product_detail": "Morning Sunrise Chai Rg",
+        "unit_price": "2.5",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1589"
+    },
+    {
+        "product_detail": "Morning Sunrise Chai Lg",
+        "unit_price": "4.0",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1413"
+    },
+    {
+        "product_detail": "Spicy Eye Opener Chai Rg",
+        "unit_price": "2.55",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1376"
+    },
+    {
+        "product_detail": "Spicy Eye Opener Chai Lg",
+        "unit_price": "3.1",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1405"
+    },
+    {
+        "product_detail": "Dark chocolate Rg",
+        "unit_price": "3.5",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1263"
+    },
+    {
+        "product_detail": "Dark chocolate Lg",
+        "unit_price": "4.5",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1452"
+    },
+    {
+        "product_detail": "Sustainably Grown Organic Rg",
+        "unit_price": "3.75",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1414"
+    },
+    {
+        "product_detail": "Sustainably Grown Organic Lg",
+        "unit_price": "4.75",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1543"
+    },
+    {
+        "product_detail": "Carmel syrup",
+        "unit_price": "0.8",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "943"
+    },
+    {
+        "product_detail": "Hazelnut syrup",
+        "unit_price": "0.8",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "867"
+    },
+    {
+        "product_detail": "Sugar Free Vanilla syrup",
+        "unit_price": "0.8",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "897"
+    },
+    {
+        "product_detail": "Hazelnut Biscotti",
+        "unit_price": "3.25",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "655"
+    },
+    {
+        "product_detail": "Cranberry Scone",
+        "unit_price": "3.25",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "720"
+    },
+    {
+        "product_detail": "Chocolate Croissant",
+        "unit_price": "3.75",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1042"
+    },
+    {
+        "product_detail": "Ginger Scone",
+        "unit_price": "3.25",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "868"
+    },
+    {
+        "product_detail": "Ginger Scone",
+        "unit_price": "2.65",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "23"
+    },
+    {
+        "product_detail": "Almond Croissant",
+        "unit_price": "3.75",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "646"
+    },
+    {
+        "product_detail": "Ginger Biscotti",
+        "unit_price": "3.5",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "657"
+    },
+    {
+        "product_detail": "Croissant",
+        "unit_price": "3.5",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "612"
+    },
+    {
+        "product_detail": "Chocolate Chip Biscotti",
+        "unit_price": "3.5",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "546"
+    },
+    {
+        "product_detail": "Oatmeal Scone",
+        "unit_price": "3.0",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "521"
+    },
+    {
+        "product_detail": "Scottish Cream Scone",
+        "unit_price": "4.5",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "781"
+    },
+    {
+        "product_detail": "Jumbo Savory Scone",
+        "unit_price": "3.75",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "607"
+    },
+    {
+        "product_detail": "I Need My Bean! T-shirt",
+        "unit_price": "28.0",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "24"
+    },
+    {
+        "product_detail": "I Need My Bean! Diner mug",
+        "unit_price": "12.0",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "30"
+    },
+    {
+        "product_detail": "I Need My Bean! Latte cup",
+        "unit_price": "14.0",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "65"
+    },
+    {
+        "product_detail": "Chocolate syrup",
+        "unit_price": "0.8",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "889"
+    },
+    {
+        "product_detail": "Ouro Brasileiro shot",
+        "unit_price": "3.0",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "1292"
+    },
+    {
+        "product_detail": "Ouro Brasileiro shot",
+        "unit_price": "2.1",
+        "store_location": "Hells Kitchen",
+        "Total_Quantity": "562"
+    },
+    {
+        "product_detail": "Brazilian - Organic",
+        "unit_price": "18.0",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "92"
+    },
+    {
+        "product_detail": "Our Old Time Diner Blend",
+        "unit_price": "18.0",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "48"
+    },
+    {
+        "product_detail": "Espresso Roast",
+        "unit_price": "14.75",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "46"
+    },
+    {
+        "product_detail": "Primo Espresso Roast",
+        "unit_price": "20.45",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "31"
+    },
+    {
+        "product_detail": "Columbian Medium Roast",
+        "unit_price": "15.0",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "37"
+    },
+    {
+        "product_detail": "Ethiopia",
+        "unit_price": "21.0",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "79"
+    },
+    {
+        "product_detail": "Jamacian Coffee River",
+        "unit_price": "19.75",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "42"
+    },
+    {
+        "product_detail": "Civet Cat",
+        "unit_price": "45.0",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "51"
+    },
+    {
+        "product_detail": "Organic Decaf Blend",
+        "unit_price": "28.0",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "17"
+    },
+    {
+        "product_detail": "Organic Decaf Blend",
+        "unit_price": "12.0",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "7"
+    },
+    {
+        "product_detail": "Organic Decaf Blend",
+        "unit_price": "22.5",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "46"
+    },
+    {
+        "product_detail": "Organic Decaf Blend",
+        "unit_price": "23.0",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "5"
+    },
+    {
+        "product_detail": "Guatemalan Sustainably Grown",
+        "unit_price": "10.0",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "35"
+    },
+    {
+        "product_detail": "Lemon Grass",
+        "unit_price": "8.95",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "30"
+    },
+    {
+        "product_detail": "Peppermint",
+        "unit_price": "8.95",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "37"
+    },
+    {
+        "product_detail": "English Breakfast",
+        "unit_price": "8.95",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "58"
+    },
+    {
+        "product_detail": "Earl Grey",
+        "unit_price": "8.95",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "41"
+    },
+    {
+        "product_detail": "Serenity Green Tea",
+        "unit_price": "9.25",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "73"
+    },
+    {
+        "product_detail": "Traditional Blend Chai",
+        "unit_price": "8.95",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "44"
+    },
+    {
+        "product_detail": "Morning Sunrise Chai",
+        "unit_price": "9.5",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "48"
+    },
+    {
+        "product_detail": "Spicy Eye Opener Chai",
+        "unit_price": "10.95",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "50"
+    },
+    {
+        "product_detail": "Dark chocolate",
+        "unit_price": "6.4",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "39"
+    },
+    {
+        "product_detail": "Sustainably Grown Organic",
+        "unit_price": "7.6",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "89"
+    },
+    {
+        "product_detail": "Chili Mayan",
+        "unit_price": "13.33",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "52"
+    },
+    {
+        "product_detail": "Our Old Time Diner Blend Sm",
+        "unit_price": "2.0",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1359"
+    },
+    {
+        "product_detail": "Our Old Time Diner Blend Rg",
+        "unit_price": "2.5",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1480"
+    },
+    {
+        "product_detail": "Our Old Time Diner Blend Lg",
+        "unit_price": "3.0",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1133"
+    },
+    {
+        "product_detail": "Brazilian Sm",
+        "unit_price": "2.2",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1394"
+    },
+    {
+        "product_detail": "Brazilian Rg",
+        "unit_price": "3.0",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1407"
+    },
+    {
+        "product_detail": "Brazilian Lg",
+        "unit_price": "3.5",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1349"
+    },
+    {
+        "product_detail": "Columbian Medium Roast Sm",
+        "unit_price": "2.0",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1217"
+    },
+    {
+        "product_detail": "Columbian Medium Roast Rg",
+        "unit_price": "2.5",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1523"
+    },
+    {
+        "product_detail": "Columbian Medium Roast Lg",
+        "unit_price": "3.0",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1450"
+    },
+    {
+        "product_detail": "Ethiopia Sm",
+        "unit_price": "2.2",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1491"
+    },
+    {
+        "product_detail": "Ethiopia Rg",
+        "unit_price": "3.0",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1515"
+    },
+    {
+        "product_detail": "Ethiopia Lg",
+        "unit_price": "3.5",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1367"
+    },
+    {
+        "product_detail": "Jamaican Coffee River Sm",
+        "unit_price": "2.45",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1460"
+    },
+    {
+        "product_detail": "Jamaican Coffee River Rg",
+        "unit_price": "3.1",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1200"
+    },
+    {
+        "product_detail": "Jamaican Coffee River Lg",
+        "unit_price": "3.75",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1496"
+    },
+    {
+        "product_detail": "Espresso shot",
+        "unit_price": "3.0",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1300"
+    },
+    {
+        "product_detail": "Latte",
+        "unit_price": "3.75",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1541"
+    },
+    {
+        "product_detail": "Latte Rg",
+        "unit_price": "4.25",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1503"
+    },
+    {
+        "product_detail": "Cappuccino",
+        "unit_price": "3.75",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1370"
+    },
+    {
+        "product_detail": "Cappuccino Lg",
+        "unit_price": "4.25",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1412"
+    },
+    {
+        "product_detail": "Lemon Grass Rg",
+        "unit_price": "2.5",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1436"
+    },
+    {
+        "product_detail": "Lemon Grass Lg",
+        "unit_price": "3.0",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1307"
+    },
+    {
+        "product_detail": "Peppermint Rg",
+        "unit_price": "2.5",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1495"
+    },
+    {
+        "product_detail": "Peppermint Lg",
+        "unit_price": "3.0",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1582"
+    },
+    {
+        "product_detail": "Serenity Green Tea Rg",
+        "unit_price": "2.5",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1466"
+    },
+    {
+        "product_detail": "Serenity Green Tea Lg",
+        "unit_price": "3.0",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1327"
+    },
+    {
+        "product_detail": "English Breakfast Rg",
+        "unit_price": "2.5",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1550"
+    },
+    {
+        "product_detail": "English Breakfast Lg",
+        "unit_price": "3.0",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1392"
+    },
+    {
+        "product_detail": "Earl Grey Rg",
+        "unit_price": "2.5",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1461"
+    },
+    {
+        "product_detail": "Earl Grey Lg",
+        "unit_price": "3.0",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1504"
+    },
+    {
+        "product_detail": "Traditional Blend Chai Rg",
+        "unit_price": "2.5",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1445"
+    },
+    {
+        "product_detail": "Traditional Blend Chai Lg",
+        "unit_price": "3.0",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1239"
+    },
+    {
+        "product_detail": "Morning Sunrise Chai Rg",
+        "unit_price": "2.5",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1509"
+    },
+    {
+        "product_detail": "Morning Sunrise Chai Lg",
+        "unit_price": "4.0",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1356"
+    },
+    {
+        "product_detail": "Spicy Eye Opener Chai Rg",
+        "unit_price": "2.55",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1275"
+    },
+    {
+        "product_detail": "Spicy Eye Opener Chai Lg",
+        "unit_price": "3.1",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1365"
+    },
+    {
+        "product_detail": "Dark chocolate Rg",
+        "unit_price": "3.5",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1231"
+    },
+    {
+        "product_detail": "Dark chocolate Lg",
+        "unit_price": "4.5",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1461"
+    },
+    {
+        "product_detail": "Sustainably Grown Organic Rg",
+        "unit_price": "3.75",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1413"
+    },
+    {
+        "product_detail": "Sustainably Grown Organic Lg",
+        "unit_price": "4.75",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1329"
+    },
+    {
+        "product_detail": "Carmel syrup",
+        "unit_price": "0.8",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1098"
+    },
+    {
+        "product_detail": "Hazelnut syrup",
+        "unit_price": "0.8",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1071"
+    },
+    {
+        "product_detail": "Sugar Free Vanilla syrup",
+        "unit_price": "0.8",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1441"
+    },
+    {
+        "product_detail": "Hazelnut Biscotti",
+        "unit_price": "3.25",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "688"
+    },
+    {
+        "product_detail": "Hazelnut Biscotti",
+        "unit_price": "04.06",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "21"
+    },
+    {
+        "product_detail": "Cranberry Scone",
+        "unit_price": "3.25",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "663"
+    },
+    {
+        "product_detail": "Cranberry Scone",
+        "unit_price": "04.06",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "24"
+    },
+    {
+        "product_detail": "Chocolate Croissant",
+        "unit_price": "3.75",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1014"
+    },
+    {
+        "product_detail": "Chocolate Croissant",
+        "unit_price": "4.69",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "17"
+    },
+    {
+        "product_detail": "Ginger Scone",
+        "unit_price": "3.25",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "569"
+    },
+    {
+        "product_detail": "Ginger Scone",
+        "unit_price": "04.06",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "21"
+    },
+    {
+        "product_detail": "Ginger Scone",
+        "unit_price": "2.65",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "411"
+    },
+    {
+        "product_detail": "Almond Croissant",
+        "unit_price": "3.75",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "640"
+    },
+    {
+        "product_detail": "Almond Croissant",
+        "unit_price": "4.69",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "2"
+    },
+    {
+        "product_detail": "Ginger Biscotti",
+        "unit_price": "3.5",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "528"
+    },
+    {
+        "product_detail": "Ginger Biscotti",
+        "unit_price": "4.38",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "12"
+    },
+    {
+        "product_detail": "Croissant",
+        "unit_price": "3.5",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "710"
+    },
+    {
+        "product_detail": "Croissant",
+        "unit_price": "4.38",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "26"
+    },
+    {
+        "product_detail": "Chocolate Chip Biscotti",
+        "unit_price": "3.5",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "709"
+    },
+    {
+        "product_detail": "Chocolate Chip Biscotti",
+        "unit_price": "4.38",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "17"
+    },
+    {
+        "product_detail": "Oatmeal Scone",
+        "unit_price": "3.0",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "646"
+    },
+    {
+        "product_detail": "Scottish Cream Scone",
+        "unit_price": "4.5",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "586"
+    },
+    {
+        "product_detail": "Scottish Cream Scone",
+        "unit_price": "5.63",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "15"
+    },
+    {
+        "product_detail": "Jumbo Savory Scone",
+        "unit_price": "3.75",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "698"
+    },
+    {
+        "product_detail": "Jumbo Savory Scone",
+        "unit_price": "4.69",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "23"
+    },
+    {
+        "product_detail": "I Need My Bean! T-shirt",
+        "unit_price": "28.0",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "86"
+    },
+    {
+        "product_detail": "I Need My Bean! Diner mug",
+        "unit_price": "12.0",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "144"
+    },
+    {
+        "product_detail": "I Need My Bean! Latte cup",
+        "unit_price": "14.0",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "148"
+    },
+    {
+        "product_detail": "Chocolate syrup",
+        "unit_price": "0.8",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "1099"
+    },
+    {
+        "product_detail": "Ouro Brasileiro shot",
+        "unit_price": "3.0",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "988"
+    },
+    {
+        "product_detail": "Ouro Brasileiro shot",
+        "unit_price": "2.1",
+        "store_location": "Lower Manhattan",
+        "Total_Quantity": "420"
+    }
+]

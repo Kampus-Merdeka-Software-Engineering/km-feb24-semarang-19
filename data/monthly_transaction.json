@@ -1,0 +1,38 @@
+﻿[
+    {
+        "month": "January",
+        "Astoria": "8281",
+        "Lower Manhattan": "8249",
+        "Hell's Kitchen": "8340"
+    },
+    {
+        "month": "February",
+        "Astoria": "7718",
+        "Lower Manhattan": "7895",
+        "Hell's Kitchen": "7937"
+    },
+    {
+        "month": "March",
+        "Astoria": "9999",
+        "Lower Manhattan": "10209",
+        "Hell's Kitchen": "10198"
+    },
+    {
+        "month": "April",
+        "Astoria": "12026",
+        "Lower Manhattan": "12249",
+        "Hell's Kitchen": "12194"
+    },
+    {
+        "month": "May",
+        "Astoria": "16114",
+        "Lower Manhattan": "16175",
+        "Hell's Kitchen": "15944"
+    },
+    {
+        "month": "June",
+        "Astoria": "16853",
+        "Lower Manhattan": "16965",
+        "Hell's Kitchen": "17124"
+    }
+]

@@ -1,0 +1,44 @@
+﻿[
+    {
+        "Day": "Sunday",
+        "Astoria": "9981",
+        "Lower Manhattan": "9931",
+        "Hell's Kitchen": "10270"
+    },
+    {
+        "Day": "Monday",
+        "Astoria": "10362",
+        "Lower Manhattan": "10748",
+        "Hell's Kitchen": "10121"
+    },
+    {
+        "Day": "Tuesday",
+        "Astoria": "9743",
+        "Lower Manhattan": "10123",
+        "Hell's Kitchen": "10583"
+    },
+    {
+        "Day": "Wednesday",
+        "Astoria": "10459",
+        "Lower Manhattan": "10088",
+        "Hell's Kitchen": "10078"
+    },
+    {
+        "Day": "Thursday",
+        "Astoria": "10384",
+        "Lower Manhattan": "10433",
+        "Hell's Kitchen": "10345"
+    },
+    {
+        "Day": "Friday",
+        "Astoria": "10342",
+        "Lower Manhattan": "10298",
+        "Hell's Kitchen": "10567"
+    },
+    {
+        "Day": "Saturday",
+        "Astoria": "9720",
+        "Lower Manhattan": "10121",
+        "Hell's Kitchen": "9773"
+    }
+]
