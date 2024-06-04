@@ -1,76 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
-    <link rel="stylesheet" href="styledashboard.css">
-</head>
+    <link rel="stylesheet" href="styledashboard.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+  </head>
 
-<body>
+  <body>
+    <!--Header start-->
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <img src="assets/revou.png" />
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="teams.html">Teams</a></li>
+      </nav>
+    </header>
+    <!--Header end-->
+
     <h1 class="centered" id="Dashboard">Dashboard</h1>
     <div class="chart-wrapper">
-        <!-- Filter Global -->
-        <div class="filter-global">
-            <label for="global-filter">Filter Global: </label>
-            <select id="global-filter">
-                <option value="all">All</option>
-                <option value="Astoria">Astoria</option>
-                <option value="Hell's Kitchen">Hell's Kitchen</option>
-                <option value="Lower Manhattan">Lower Manhattan</option>
-            </select>
-        </div>
-        <div class="total-pendapatan">
-            Total Pendapatan: <span id="total-revenue">0</span>
-        </div>
-        <div class="chart-container">
-            <div class="chart-section">
-                <div class="chart-subsection">
-                    <h2>Data Jumlah Transaksi</h2>
-                    <div class="chart-container">
-                        <canvas id="multiAxisLineChart"></canvas>
-                    </div>
-                </div>
-                <div class="chart-subsection">
-                    <h2>Produk Best Seller</h2>
-                    <div class="chart-container">
-                        <canvas id="stackedBarChartBestSeller"></canvas>
-                    </div>
-                </div>
+      <!-- Filter Global -->
+      <div class="filter-global">
+        <label for="global-filter">Store Location: </label>
+        <select id="global-filter">
+          <option value="all">All</option>
+          <option value="Astoria">Astoria</option>
+          <option value="Hell's Kitchen">Hell's Kitchen</option>
+          <option value="Lower Manhattan">Lower Manhattan</option>
+        </select>
+      </div>
+      <div class="total-pendapatan">
+        Total Pendapatan: <span id="total-revenue">0</span>
+      </div>
+      <div class="chart-container">
+        <div class="chart-section">
+          <div class="chart-subsection">
+            <h2>Data Jumlah Transaksi</h2>
+            <div class="chart-container">
+              <canvas id="multiAxisLineChart"></canvas>
             </div>
+          </div>
+          <div class="chart-subsection">
+            <h2>Produk Best Seller</h2>
+            <div class="chart-container">
+              <canvas id="stackedBarChartBestSeller"></canvas>
+            </div>
+          </div>
+        </div>
 
-            <div class="chart-section">
-                <div class="chart-subsection">
-                    <h2>Transaksi Per Harga</h2>
-                    <div class="chart-container">
-                        <canvas id="stackedBarChart"></canvas>
-                    </div>
-                </div>
-                <div class="chart-subsection">
-                    <h2>Total Revenue</h2>
-                    <div class="chart-container">
-                        <canvas id="myPieChart"></canvas>
-                    </div>
-                </div>
+        <div class="chart-section">
+          <div class="chart-subsection">
+            <h2>Transaksi Per Harga</h2>
+            <div class="chart-container">
+              <canvas id="stackedBarChart"></canvas>
             </div>
-
-            <div class="chart-section">
-                <div class="chart-subsection">
-                    <h2>Transaksi Per Bulan</h2>
-                    <div class="chart-container">
-                        <canvas id="barChartVertical2"></canvas>
-                    </div>
-                </div>
-                <div class="chart-subsection">
-                    <h2>Transaksi Per Hari</h2>
-                    <div class="chart-container">
-                        <canvas id="barChartVertical3"></canvas>
-                    </div>
-                </div>
+          </div>
+          <div class="chart-subsection">
+            <h2>Total Revenue</h2>
+            <div class="chart-container">
+              <canvas id="myPieChart"></canvas>
             </div>
+          </div>
         </div>
+
+        <div class="chart-section">
+          <div class="chart-subsection">
+            <h2>Transaksi Per Bulan</h2>
+            <div class="chart-container">
+              <canvas id="barChartVertical2"></canvas>
+            </div>
+          </div>
+          <div class="chart-subsection">
+            <h2>Tabel Transaksi Per Hari</h2>
+            <div class="chart-container">
+              <canvas id="barChartVertical3"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <div class="chart-section">
+          <div class="chart-subsection">
+            <h2>Tabel Produk Best Seller</h2>
+            <div class="table-container">
+              <table border="1" id="best-seller-table" style="width: 100%">
+                <thead>
+                  <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Store Location</th>
+                    <th>Total Quantity</th>
+                  </tr>
+                </thead>
+                <tbody id="best-seller-table-body"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <!--Footer start-->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section about">
+          <h2>About Us</h2>
+          <p>
+            Welcome to Maven Roastery! We are your one-stop destination for
+            all your coffee, tea, merchandise, chocolate, pastry, bakery, and
+            many other high-quality products.
+          </p>
+        </div>
+        <div class="footer-section links">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="teams.html">Teams</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">&copy; 2024 Team 19 | Section Semarang</div>
+    </footer>
+    <!--Footer end-->
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="script.js"></script>
     <script src="scripts/transaksiHarga.js"></script>
@@ -79,6 +149,5 @@
     <script src="scripts/totalRevenue.js"></script>
     <script src="scripts/monthlyTrans.js"></script>
     <script src="scripts/dailyTrans.js"></script>
-</body>
-
+  </body>
 </html>

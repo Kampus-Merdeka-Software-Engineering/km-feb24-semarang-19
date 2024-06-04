@@ -3,26 +3,26 @@
     {
       "Price_Range": "Over 24 Dollar",
       "Astoria": 1854,
-      "Lower_Manhattan": 3294,
-      "Hells_Kitchen": 2826
+      "Lower Manhattan": 3294,
+      "Hells Kitchen": 2826
     },
     {
       "Price_Range": "1-8 Dollar",
       "Astoria": 47937,
-      "Lower_Manhattan": 43539,
-      "Hells_Kitchen": 46992
+      "Lower Manhattan": 43539,
+      "Hells Kitchen": 46992
     },
     {
       "Price_Range": "9-16 Dollar",
       "Astoria": 478,
-      "Lower_Manhattan": 611,
-      "Hells_Kitchen": 476
+      "Lower Manhattan": 611,
+      "Hells Kitchen": 476
     },
     {
       "Price_Range": "17-24 Dollar",
       "Astoria": 330,
-      "Lower_Manhattan": 338,
-      "Hells_Kitchen": 441
+      "Lower Manhattan": 338,
+      "Hells Kitchen": 441
     }
   ]
 }

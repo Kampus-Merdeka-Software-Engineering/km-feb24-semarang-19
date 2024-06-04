@@ -1,182 +1,182 @@
 [
-    {
-        "product_detail": "Earl Grey Rg",
-        "unit_price": "8.95",
-        "store_location": "Lower_Manhattan",
-        "Total_Quantity": "1461"
-    },
-    {
-        "product_detail": "Earl Grey Rg",
-        "unit_price": "8.95",
-        "store_location": "Hells Kitchen",
-        "Total_Quantity": "1522"
-    },
-    {
-        "product_detail": "Earl Grey Rg",
-        "unit_price": "8.95",
-        "store_location": "Astoria",
-        "Total_Quantity": "1725"
-    },
-    {
-        "product_detail": "Dark Chocolate Lg",
-        "unit_price": "4.5",
-        "store_location": "Lower Manhattan",
-        "Total_Quantity": "1461"
-    },
-    {
-        "product_detail": "Dark Chocolate Lg",
-        "unit_price": "4.5",
-        "store_location": "Hells Kitchen",
-        "Total_Quantity": "1452"
-    },
-    {
-        "product_detail": "Dark Chocolate Lg",
-        "unit_price": "4.5",
-        "store_location": "Astoria",
-        "Total_Quantity": "1755"
-    },
-    {
-        "product_detail": "Morning Sunrise Chai Rg",
-        "unit_price": "2.5",
-        "store_location": "Lower Manhattan",
-        "Total_Quantity": "1509"
-    },
-    {
-        "product_detail": "Morning Sunrise Chai Rg",
-        "unit_price": "2.5",
-        "store_location": "Hells Kitchen",
-        "Total_Quantity": "1589"
-    },
-    {
-        "product_detail": "Morning Sunrise Chai Rg",
-        "unit_price": "2.5",
-        "store_location": "Astoria",
-        "Total_Quantity": "1545"
-    },
-    {
-        "product_detail": "Latte",
-        "unit_price": "3.75",
-        "store_location": "Lower Manhattan",
-        "Total_Quantity": "1541"
-    },
-    {
-        "product_detail": "Latte",
-        "unit_price": "3.75",
-        "store_location": "Hells Kitchen",
-        "Total_Quantity": "1500"
-    },
-    {
-        "product_detail": "Latte",
-        "unit_price": "3.75",
-        "store_location": "Astoria",
-        "Total_Quantity": "1561"
-    },
-    {
-        "product_detail": "Peppermint Rg",
-        "unit_price": "2.5",
-        "store_location": "Lower Manhattan",
-        "Total_Quantity": "1495"
-    },
-    {
-        "product_detail": "Peppermint Rg",
-        "unit_price": "2.5",
-        "store_location": "Hells Kitchen",
-        "Total_Quantity": "1396"
-    },
-    {
-        "product_detail": "Peppermint Rg",
-        "unit_price": "2.5",
-        "store_location": "Astoria",
-        "Total_Quantity": "1673"
-    },
-    {
-        "product_detail": "Columbian Medium Roast Rg",
-        "unit_price": "2.5",
-        "store_location": "Lower Manhattan",
-        "Total_Quantity": "1523"
-    },
-    {
-        "product_detail": "Columbian Medium Roast Rg",
-        "unit_price": "2.5",
-        "store_location": "Hells Kitchen",
-        "Total_Quantity": "1411"
-    },
-    {
-        "product_detail": "Columbian Medium Roast Rg",
-        "unit_price": "2.5",
-        "store_location": "Astoria",
-        "Total_Quantity": "1613"
-    },
-    {
-        "product_detail": "Traditional Blend Chai Rg",
-        "unit_price": "2.5",
-        "store_location": "Lower Manhattan",
-        "Total_Quantity": "1445"
-    },
-    {
-        "product_detail": "Traditional Blend Chai Rg",
-        "unit_price": "2.5",
-        "store_location": "Hells Kitchen",
-        "Total_Quantity": "1519"
-    },
-    {
-        "product_detail": "Traditional Blend Chai Rg",
-        "unit_price": "2.5",
-        "store_location": "Astoria",
-        "Total_Quantity": "1548"
-    },
-    {
-        "product_detail": "Latte Rg",
-        "unit_price": "4.25",
-        "store_location": "Lower Manhattan",
-        "Total_Quantity": "1503"
-    },
-    {
-        "product_detail": "Latte Rg",
-        "unit_price": "4.25",
-        "store_location": "Hells Kitchen",
-        "Total_Quantity": "1498"
-    },
-    {
-        "product_detail": "Latte Rg",
-        "unit_price": "4.25",
-        "store_location": "Astoria",
-        "Total_Quantity": "1496"
-    },
-    {
-        "product_detail": "Our Old Time Diner Blend Sm",
-        "unit_price": "2.0",
-        "store_location": "Lower Manhattan",
-        "Total_Quantity": "1359"
-    },
-    {
-        "product_detail": "Our Old Time Diner Blend Sm",
-        "unit_price": "2.0",
-        "store_location": "Hells Kitchen",
-        "Total_Quantity": "1550"
-    },
-    {
-        "product_detail": "Our Old Time Diner Blend Sm",
-        "unit_price": "2.0",
-        "store_location": "Astoria",
-        "Total_Quantity": "1575"
-    },
-    {
-        "product_detail": "Serenity Green Tea Rg",
-        "unit_price": "2.5",
-        "store_location": "Lower Manhattan",
-        "Total_Quantity": "1466"
-    },
-    {
-        "product_detail": "Serenity Green Tea Rg",
-        "unit_price": "2.5",
-        "store_location": "Hells Kitchen",
-        "Total_Quantity": "1601"
-    },
-    {
-        "product_detail": "Serenity Green Tea Rg",
-        "unit_price": "2.5",
-        "store_location": "Astoria",
-        "Total_Quantity": "1410"
-    }
+  {
+    "product_detail": "Earl Grey Rg",
+    "unit_price": "8.95",
+    "store_location": "Lower Manhattan",
+    "Total_Quantity": "1461"
+  },
+  {
+    "product_detail": "Earl Grey Rg",
+    "unit_price": "8.95",
+    "store_location": "Hells Kitchen",
+    "Total_Quantity": "1522"
+  },
+  {
+    "product_detail": "Earl Grey Rg",
+    "unit_price": "8.95",
+    "store_location": "Astoria",
+    "Total_Quantity": "1725"
+  },
+  {
+    "product_detail": "Dark Chocolate Lg",
+    "unit_price": "4.5",
+    "store_location": "Lower Manhattan",
+    "Total_Quantity": "1461"
+  },
+  {
+    "product_detail": "Dark Chocolate Lg",
+    "unit_price": "4.5",
+    "store_location": "Hells Kitchen",
+    "Total_Quantity": "1452"
+  },
+  {
+    "product_detail": "Dark Chocolate Lg",
+    "unit_price": "4.5",
+    "store_location": "Astoria",
+    "Total_Quantity": "1755"
+  },
+  {
+    "product_detail": "Morning Sunrise Chai Rg",
+    "unit_price": "2.5",
+    "store_location": "Lower Manhattan",
+    "Total_Quantity": "1509"
+  },
+  {
+    "product_detail": "Morning Sunrise Chai Rg",
+    "unit_price": "2.5",
+    "store_location": "Hells Kitchen",
+    "Total_Quantity": "1589"
+  },
+  {
+    "product_detail": "Morning Sunrise Chai Rg",
+    "unit_price": "2.5",
+    "store_location": "Astoria",
+    "Total_Quantity": "1545"
+  },
+  {
+    "product_detail": "Latte",
+    "unit_price": "3.75",
+    "store_location": "Lower Manhattan",
+    "Total_Quantity": "1541"
+  },
+  {
+    "product_detail": "Latte",
+    "unit_price": "3.75",
+    "store_location": "Hells Kitchen",
+    "Total_Quantity": "1500"
+  },
+  {
+    "product_detail": "Latte",
+    "unit_price": "3.75",
+    "store_location": "Astoria",
+    "Total_Quantity": "1561"
+  },
+  {
+    "product_detail": "Peppermint Rg",
+    "unit_price": "2.5",
+    "store_location": "Lower Manhattan",
+    "Total_Quantity": "1495"
+  },
+  {
+    "product_detail": "Peppermint Rg",
+    "unit_price": "2.5",
+    "store_location": "Hells Kitchen",
+    "Total_Quantity": "1396"
+  },
+  {
+    "product_detail": "Peppermint Rg",
+    "unit_price": "2.5",
+    "store_location": "Astoria",
+    "Total_Quantity": "1673"
+  },
+  {
+    "product_detail": "Columbian Medium Roast Rg",
+    "unit_price": "2.5",
+    "store_location": "Lower Manhattan",
+    "Total_Quantity": "1523"
+  },
+  {
+    "product_detail": "Columbian Medium Roast Rg",
+    "unit_price": "2.5",
+    "store_location": "Hells Kitchen",
+    "Total_Quantity": "1411"
+  },
+  {
+    "product_detail": "Columbian Medium Roast Rg",
+    "unit_price": "2.5",
+    "store_location": "Astoria",
+    "Total_Quantity": "1613"
+  },
+  {
+    "product_detail": "Traditional Blend Chai Rg",
+    "unit_price": "2.5",
+    "store_location": "Lower Manhattan",
+    "Total_Quantity": "1445"
+  },
+  {
+    "product_detail": "Traditional Blend Chai Rg",
+    "unit_price": "2.5",
+    "store_location": "Hells Kitchen",
+    "Total_Quantity": "1519"
+  },
+  {
+    "product_detail": "Traditional Blend Chai Rg",
+    "unit_price": "2.5",
+    "store_location": "Astoria",
+    "Total_Quantity": "1548"
+  },
+  {
+    "product_detail": "Latte Rg",
+    "unit_price": "4.25",
+    "store_location": "Lower Manhattan",
+    "Total_Quantity": "1503"
+  },
+  {
+    "product_detail": "Latte Rg",
+    "unit_price": "4.25",
+    "store_location": "Hells Kitchen",
+    "Total_Quantity": "1498"
+  },
+  {
+    "product_detail": "Latte Rg",
+    "unit_price": "4.25",
+    "store_location": "Astoria",
+    "Total_Quantity": "1496"
+  },
+  {
+    "product_detail": "Our Old Time Diner Blend Sm",
+    "unit_price": "2.0",
+    "store_location": "Lower Manhattan",
+    "Total_Quantity": "1359"
+  },
+  {
+    "product_detail": "Our Old Time Diner Blend Sm",
+    "unit_price": "2.0",
+    "store_location": "Hells Kitchen",
+    "Total_Quantity": "1550"
+  },
+  {
+    "product_detail": "Our Old Time Diner Blend Sm",
+    "unit_price": "2.0",
+    "store_location": "Astoria",
+    "Total_Quantity": "1575"
+  },
+  {
+    "product_detail": "Serenity Green Tea Rg",
+    "unit_price": "2.5",
+    "store_location": "Lower Manhattan",
+    "Total_Quantity": "1466"
+  },
+  {
+    "product_detail": "Serenity Green Tea Rg",
+    "unit_price": "2.5",
+    "store_location": "Hells Kitchen",
+    "Total_Quantity": "1601"
+  },
+  {
+    "product_detail": "Serenity Green Tea Rg",
+    "unit_price": "2.5",
+    "store_location": "Astoria",
+    "Total_Quantity": "1410"
+  }
 ]
