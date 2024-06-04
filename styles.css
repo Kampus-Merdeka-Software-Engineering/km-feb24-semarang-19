@@ -269,3 +269,89 @@ footer {
 .footer-bottom a:hover {
   text-decoration: underline;
 }
+
+/* Media Queries */
+
+/* Tablet view */
+@media (max-width: 1090px) {
+  .hero-content h1 {
+    font-size: 40px;
+  }
+
+  .products-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-card {
+    width: 45%;
+  }
+
+  .team-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  header .logo img {
+    width: 40px;
+    margin-left: 20px;
+  }
+
+  nav ul {
+    padding-inline: 2rem;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 700px) {
+  .hero-content {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 237, 222, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .explore {
+    text-align: center;
+  }
+
+  .explore button {
+    width: 100px;
+    height: 40px;
+  }
+
+  .products-container {
+    flex-direction: column;
+  }
+
+  .product-card {
+    width: 80%;
+  }
+
+  .team-container {
+    grid-template-columns: 1fr;
+  }
+
+  header {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  header .logo img {
+    margin-left: 0;
+  }
+
+  nav ul {
+    padding: 0;
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+}
