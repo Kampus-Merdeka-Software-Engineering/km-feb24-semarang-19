@@ -41,7 +41,7 @@
         <select id="global-filter">
           <option value="all">All</option>
           <option value="Astoria">Astoria</option>
-          <option value="Hell's Kitchen">Hell's Kitchen</option>
+          <option value="Hells Kitchen">Hell's Kitchen</option>
           <option value="Lower Manhattan">Lower Manhattan</option>
         </select>
       </div>
@@ -149,5 +149,53 @@
     <script src="scripts/totalRevenue.js"></script>
     <script src="scripts/monthlyTrans.js"></script>
     <script src="scripts/dailyTrans.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+  const data = [
+    {
+      "total_sales": "232,243",
+      "store_location": "Astoria"
+    },
+    {
+      "total_sales": "236,511",
+      "store_location": "Hells Kitchen"
+    },
+    {
+      "total_sales": "230,057",
+      "store_location": "Lower Manhattan"
+    }
+  ];
+
+  const dropdown = document.getElementById('global-filter');
+  const totalRevenue = document.getElementById('total-revenue');
+
+  // Fungsi untuk menghitung total pendapatan berdasarkan lokasi toko yang dipilih
+  function calculateTotalRevenue(location) {
+    let total = 0;
+    if (location === 'all') {
+      data.forEach(item => {
+        total += parseFloat(item.total_sales.replace(',', ''));
+      });
+    } else {
+      data.forEach(item => {
+        if (item.store_location === location) {
+          total += parseFloat(item.total_sales.replace(',', ''));
+        }
+      });
+    }
+    return total.toLocaleString(); // Format angka dengan koma sebagai pemisah ribuan
+  }
+
+  // Event listener untuk dropdown filter
+  dropdown.addEventListener('change', function() {
+    const selectedLocation = this.value;
+    const total = calculateTotalRevenue(selectedLocation);
+    totalRevenue.textContent = total;
+  });
+
+  // Inisialisasi total pendapatan awal (semua lokasi)
+  totalRevenue.textContent = calculateTotalRevenue('all');
+});
+    </script>
   </body>
 </html>

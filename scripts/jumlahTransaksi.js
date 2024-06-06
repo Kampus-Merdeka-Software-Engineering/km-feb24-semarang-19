@@ -550,22 +550,22 @@ const data = {
     ]
   };
   
-  // Memisahkan data berdasarkan lokasi toko
-  const lowerManhattanData = data.trend.filter(entry => entry.store_location === 'Lower Manhattan');
-  const hellsKitchenData = data.trend.filter(entry => entry.store_location === "Hell's Kitchen");
-  const astoriaData = data.trend.filter(entry => entry.store_location === 'Astoria');
-  
-  // Mengumpulkan jumlah transaksi per minggu untuk setiap lokasi
-  const weeks = lowerManhattanData.map(entry => entry.week_id); // Menggunakan week_id sebagai label
-  
-  const lowerManhattanTransactions = lowerManhattanData.map(entry => entry.transaction_qty);
-  const hellsKitchenTransactions = hellsKitchenData.map(entry => entry.transaction_qty);
-  const astoriaTransactions = astoriaData.map(entry => entry.transaction_qty);
+// Memisahkan data berdasarkan lokasi toko
+const lowerManhattanData = data.trend.filter(entry => entry.store_location === 'Lower Manhattan');
+const hellsKitchenData = data.trend.filter(entry => entry.store_location === "Hell's Kitchen");
+const astoriaData = data.trend.filter(entry => entry.store_location === 'Astoria');
 
-  // Mendefinisikan canvas untuk chart
+// Mengumpulkan jumlah transaksi per minggu untuk setiap lokasi
+const weeks = lowerManhattanData.map(entry => entry.week_id); // Menggunakan week_id sebagai label
+
+const lowerManhattanTransactions = lowerManhattanData.map(entry => entry.transaction_qty);
+const hellsKitchenTransactions = hellsKitchenData.map(entry => entry.transaction_qty);
+const astoriaTransactions = astoriaData.map(entry => entry.transaction_qty);
+
+// Definisi canvas untuk chart
 const ctx = document.getElementById('multiAxisLineChart').getContext('2d');
 
-// Membuat instance Chart.js
+// Inisialisasi Chart.js
 const myChart = new Chart(ctx, {
   type: 'line',
   data: {
@@ -582,72 +582,82 @@ const myChart = new Chart(ctx, {
         borderColor: 'red',
         data: hellsKitchenTransactions,
         fill: false,
+        
       },
       {
         label: 'Astoria',
         borderColor: 'green',
         data: astoriaTransactions,
         fill: false,
+        
       }
     ]
   },
-  options: {
-    responsive: true,
-    title: {
-      display: true,
-      text: 'Weekly Transactions by Store Location'
-    },
-    scales: {
-      xAxes: [{
-        scaleLabel: {
-          display: true,
-          labelString: 'Week'
-        }
-      }],
-      yAxes: [
-        {
-          id: 'y-axis-1',
-          type: 'linear',
-          position: 'left',
-          scaleLabel: {
-            display: true,
-            labelString: 'Transactions - Lower Manhattan',
-            fontColor: 'blue'
-          },
-          ticks: {
-            fontColor: 'blue'
-          }
-        },
-        {
-          id: 'y-axis-2',
-          type: 'linear',
-          position: 'right',
-          scaleLabel: {
-            display: true,
-            labelString: 'Transactions - Hell\'s Kitchen',
-            fontColor: 'red'
-          },
-          ticks: {
-            fontColor: 'red'
-          }
-        },
-        {
-          id: 'y-axis-3',
-          type: 'linear',
-          position: 'right',
-          scaleLabel: {
-            display: true,
-            labelString: 'Transactions - Astoria',
-            fontColor: 'green'
-          },
-          ticks: {
-            fontColor: 'green'
-          },
-          gridLines: {
-            display: false
-          }
-        }
-      ]
-    }
-  }
 });
+
+// Fungsi untuk memperbarui grafik berdasarkan lokasi yang dipilih
+const globalFilter = document.getElementById('global-filter');
+
+globalFilter.addEventListener('change', updateChart);
+
+function updateChart() {
+  const selectedLocation = globalFilter.value;
+
+  let selectedData;
+  let labelColor;
+
+  switch (selectedLocation) {
+    case 'Lower Manhattan':
+      selectedData = lowerManhattanTransactions;
+      labelColor = 'blue';
+      break;
+    case "Hells Kitchen":
+      selectedData = hellsKitchenTransactions;
+      labelColor = 'red';
+      break;
+    case 'Astoria':
+      selectedData = astoriaTransactions;
+      labelColor = 'green';
+      break;
+    case 'all':
+      // Mengembalikan semua data
+      myChart.data.datasets = [
+        {
+          label: 'Lower Manhattan',
+          borderColor: 'blue',
+          data: lowerManhattanTransactions,
+          fill: false,
+        },
+        {
+          label: "Hell's Kitchen",
+          borderColor: 'red',
+          data: hellsKitchenTransactions,
+          fill: false,
+        },
+        {
+          label: 'Astoria',
+          borderColor: 'green',
+          data: astoriaTransactions,
+          fill: false,
+        }
+      ];
+      myChart.update();
+      return;
+    default:
+      // Jika tidak ada yang dipilih, tidak melakukan perubahan
+      return;
+  }
+
+  // Memperbarui dataset di grafik
+  myChart.data.datasets = [
+    {
+      label: selectedLocation,
+      borderColor: labelColor,
+      data: selectedData,
+      fill: false,
+    }
+  ];
+
+  // Menggambar ulang grafik dengan dataset yang baru
+  myChart.update();
+}

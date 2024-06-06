@@ -1,123 +1,120 @@
-fetch("./data/best_seller_looker.json")
-  .then((response) => response.json())
-  .then((jsonData) => {
-    // Sort data by Total_Quantity
-    const sortedData = jsonData.sort(
-      (a, b) => parseInt(b.Total_Quantity) - parseInt(a.Total_Quantity)
-    );
+let originalBestSellerData = [];
+        let chartInstance = null;
 
-    const tableBody = document.getElementById("best-seller-table-body");
+        fetch("./data/best_seller_looker.json")
+          .then((response) => response.json())
+          .then((jsonData) => {
+            originalBestSellerData = jsonData;
+            console.log('Original Data:', originalBestSellerData); // Debug: Log original data
+            renderBestSellerTable(jsonData);
+            renderBestSellerChart(jsonData);
+            setupFilter();
+          })
+          .catch((error) => console.error("Error loading the JSON file:", error));
 
-    sortedData.forEach((item) => {
-      const row = document.createElement("tr");
+        function setupFilter() {
+          const filterElement = document.getElementById("global-filter");
+          filterElement.addEventListener("change", function () {
+            const selectedValue = filterElement.value;
+            let filteredData = originalBestSellerData;
 
-      row.innerHTML = `
-        <td>${item.product_detail}</td>
-        <td>${item.unit_price}</td>
-        <td>${item.store_location}</td>
-        <td>${item.Total_Quantity}</td>
-    `;
+            if (selectedValue !== "all") {
+              filteredData = originalBestSellerData.filter(
+                (item) => item.store_location === selectedValue
+              );
+            }
 
-      tableBody.appendChild(row);
-    });
+            console.log('Filtered Data:', filteredData); // Debug: Log filtered data
+            renderBestSellerTable(filteredData);
+            renderBestSellerChart(filteredData);
+          });
+        }
 
-    $("#best-seller-table").DataTable({
-      columns: [
-        { data: "product_detail" },
-        {
-          data: "unit_price",
-          render: $.fn.dataTable.render.number(",", ".", 2, "$ "),
-        },
-        { data: "store_location" },
-        { data: "Total_Quantity" },
-      ],
-    });
+        function renderBestSellerTable(data) {
+          const sortedData = data.sort((a, b) => parseInt(b.Total_Quantity) - parseInt(a.Total_Quantity));
+          const tableBody = document.getElementById("best-seller-table-body");
+          tableBody.innerHTML = "";
 
-    // Extract unique product names from the sorted data
-    const productNames = sortedData.map((item) => item.product_detail);
-    const uniqueProductNames = [...new Set(productNames)];
+          sortedData.forEach((item) => {
+            const row = document.createElement("tr");
 
-    // Separate data by store location
-    const astoriaProducts = sortedData.filter(
-      (item) => item.store_location === "Astoria"
-    );
-    const lowerManhattanProducts = sortedData.filter(
-      (item) => item.store_location === "Lower Manhattan"
-    );
-    const hellsKitchenProducts = sortedData.filter(
-      (item) => item.store_location === "Hells Kitchen"
-    );
+            row.innerHTML = `
+              <td>${item.product_detail}</td>
+              <td>${item.unit_price}</td>
+              <td>${item.store_location}</td>
+              <td>${item.Total_Quantity}</td>
+            `;
 
-    const astoriaData = uniqueProductNames.map((name) => {
-      const product = astoriaProducts.find(
-        (item) => item.product_detail === name
-      );
-      return product ? parseInt(product.Total_Quantity) : 0;
-    });
+            tableBody.appendChild(row);
+          });
 
-    const lowerManhattanData = uniqueProductNames.map((name) => {
-      const product = lowerManhattanProducts.find(
-        (item) => item.product_detail === name
-      );
-      return product ? parseInt(product.Total_Quantity) : 0;
-    });
+          $("#best-seller-table").DataTable({
+            destroy: true, // Destroy any existing table instance
+            data: sortedData,
+            columns: [
+              { data: "product_detail" },
+              {
+                data: "unit_price",
+                render: $.fn.dataTable.render.number(",", ".", 2, "$ "),
+              },
+              { data: "store_location" },
+              { data: "Total_Quantity" },
+            ],
+          });
+        }
 
-    const hellsKitchenData = uniqueProductNames.map((name) => {
-      const product = hellsKitchenProducts.find(
-        (item) => item.product_detail === name
-      );
-      return product ? parseInt(product.Total_Quantity) : 0;
-    });
+        function renderBestSellerChart(data) {
+          const productNames = data.map((item) => item.product_detail);
+          const uniqueProductNames = [...new Set(productNames)];
+          const locations = ["Astoria", "Lower Manhattan", "Hells Kitchen"];
 
-    const ctx = document
-      .getElementById("stackedBarChartBestSeller")
-      .getContext("2d");
-    new Chart(ctx, {
-      type: "bar",
-      data: {
-        labels: uniqueProductNames,
-        datasets: [
-          {
-            label: "Astoria",
-            data: astoriaData,
-            backgroundColor: "rgba(75, 192, 192, 0.6)",
-            borderColor: "rgba(75, 192, 192, 1)",
-            borderWidth: 1,
-          },
-          {
-            label: "Lower Manhattan",
-            data: lowerManhattanData,
-            backgroundColor: "rgba(153, 102, 255, 0.6)",
-            borderColor: "rgba(153, 102, 255, 1)",
-            borderWidth: 1,
-          },
-          {
-            label: "Hell's Kitchen",
-            data: hellsKitchenData,
-            backgroundColor: "rgba(255, 99, 132, 0.6)",
-            borderColor: "rgba(255, 99, 132, 1)",
-            borderWidth: 1,
-          },
-        ],
-      },
-      options: {
-        indexAxis: "y", // This makes the chart horizontal
-        responsive: true,
-        plugins: {
-          legend: {
-            position: "top",
-          },
-        },
-        scales: {
-          x: {
-            stacked: true,
-            beginAtZero: true,
-          },
-          y: {
-            stacked: true,
-          },
-        },
-      },
-    });
-  })
-  .catch((error) => console.error("Error loading the JSON file:", error));
+          const chartData = locations.map((location) => {
+            return {
+              label: location,
+              data: uniqueProductNames.map((name) => {
+                const product = data.find(
+                  (item) => item.product_detail === name && item.store_location === location
+                );
+                return product ? parseInt(product.Total_Quantity) : 0;
+              }),
+              backgroundColor: `rgba(${Math.floor(Math.random() * 255)}, ${Math.floor(
+                Math.random() * 255
+              )}, ${Math.floor(Math.random() * 255)}, 0.6)`,
+              borderColor: `rgba(${Math.floor(Math.random() * 255)}, ${Math.floor(
+                Math.random() * 255
+              )}, ${Math.floor(Math.random() * 255)}, 1)`,
+              borderWidth: 1,
+            };
+          });
+
+          if (chartInstance) {
+            chartInstance.destroy();
+          }
+
+          const ctx = document.getElementById("stackedBarChartBestSeller").getContext("2d");
+          chartInstance = new Chart(ctx, {
+            type: "bar",
+            data: {
+              labels: uniqueProductNames,
+              datasets: chartData,
+            },
+            options: {
+              indexAxis: "y",
+              responsive: true,
+              plugins: {
+                legend: {
+                  position: "top",
+                },
+              },
+              scales: {
+                x: {
+                  stacked: true,
+                  beginAtZero: true,
+                },
+                y: {
+                  stacked: true,
+                },
+              },
+            },
+          });
+        }
