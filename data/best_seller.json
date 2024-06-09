@@ -1273,9 +1273,9 @@
     },
     {
         "product_detail": "Serenity Green Tea Rg",
-        "unit_price": "2.5",
+        "unit_price": "3.5",
         "store_location": "Lower Manhattan",
-        "Total_Quantity": "1466"
+        "Total_Quantity": "1403"
     },
     {
         "product_detail": "Serenity Green Tea Lg",
@@ -1309,13 +1309,13 @@
     },
     {
         "product_detail": "Traditional Blend Chai Rg",
-        "unit_price": "2.5",
+        "unit_price": "3.5",
         "store_location": "Lower Manhattan",
-        "Total_Quantity": "1445"
+        "Total_Quantity": "1360"
     },
     {
         "product_detail": "Traditional Blend Chai Lg",
-        "unit_price": "3.0",
+        "unit_price": "2.5",
         "store_location": "Lower Manhattan",
         "Total_Quantity": "1239"
     },
@@ -1351,9 +1351,9 @@
     },
     {
         "product_detail": "Dark chocolate Lg",
-        "unit_price": "4.5",
+        "unit_price": "5.5",
         "store_location": "Lower Manhattan",
-        "Total_Quantity": "1461"
+        "Total_Quantity": "1410"
     },
     {
         "product_detail": "Sustainably Grown Organic Rg",

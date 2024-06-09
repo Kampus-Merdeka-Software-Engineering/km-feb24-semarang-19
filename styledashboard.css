@@ -307,32 +307,3 @@ footer {
     }
 }
 
-.table-container {
-    overflow-x: auto; /* Menampilkan scrollbar horizontal jika konten melebihi lebar */
-    margin-top: 20px; /* Margin atas sesuai dengan desain */
-}
-
-#best-seller-table {
-    width: 100%; /* Lebar tabel menggunakan lebar penuh dari parentnya */
-    border-collapse: collapse; /* Memastikan batas tabel rapi */
-}
-
-#best-seller-table th,
-#best-seller-table td {
-    padding: 8px; /* Padding sel untuk ruang tambahan */
-    text-align: left; /* Penataan teks kiri untuk sel */
-    border: 1px solid #ddd; /* Garis batas yang rapi */
-}
-
-#best-seller-table th {
-    background-color: #f2f2f2; /* Warna latar belakang untuk header kolom */
-    font-weight: bold; /* Tebal pada teks header */
-}
-
-#best-seller-table tbody tr:nth-child(even) {
-    background-color: #f9f9f9; /* Warna latar belakang baris genap */
-}
-
-#best-seller-table tbody tr:hover {
-    background-color: #ddd; /* Warna latar belakang saat dihover */
-}
